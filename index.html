@@ -32,8 +32,8 @@
                 <input type ="text" name ="lname"id="lname" placeholder="Last Name" maxlenght="20"required>
             
                 <label for ="gender">Gender</label>
-                <input type="radio" name="male" id="gender" >M 
-                <input type="radio" name="male" id="fmale">F
+                <input type="radio" name="gender" id="male" value="M">Male 
+                <input type="radio" name="gender" id="fmale">F
 
                 
             <div>
@@ -46,7 +46,7 @@
                 <label for="status">Civil Status</label>
                 <select>
                         <option>--Elija una opcion--</option>
-                        <option>Single</option>
+                        <option value="Single">Single</option>
                         <option>Married</option>
                         <option>Promised</option>
                       
@@ -74,7 +74,7 @@
          <legend>Further Training</legend>
          <fieldset>
          <legend> Programming Languages</legend>
-         <input type="checkbox" name="check[]" checked> Java
+         <input type="checkbox" name="check[]" > Java
          <input type="checkbox" name="check[]"> C#
          <input type="checkbox" name="check[]"> Phyton
          <input type="checkbox" name="check[]"> C++
@@ -83,7 +83,7 @@
       </fieldset>
       <fieldset>
           <legend>Web Technologies</legend>
-      <input type="checkbox" name="check[]" checked> HTML5
+      <input type="checkbox" name="check[]" > HTML5
       <input type="checkbox" name="check[]"> CSS/CSS3
       <input type="checkbox" name="check[]"> materialize Css
       <input type="checkbox" name="check[]"> JavaScript
@@ -92,7 +92,7 @@
       </fieldset>
 
         <input type="submit" value="Send">
-        <input type ="submit" value ="Cancel">
+        <input type ="button" value ="Cancel">
 
     </form>
 
